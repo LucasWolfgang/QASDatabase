@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 1385  -->
+  <question type="multichoice">
+    <name>
+      <text>Electromagnetism I</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[(CEFET-MG) A bússola é um dispositivo composto por uma agulha imantada que pode girar livremente em torno de um eixo perpendicular a ela. Sobre seu funcionamento,<br>afirma-se:<br>I- O pólo sul magnético aponta para o norte geográfico terrestre;<br>II- O pólo norte magnético aponta para o sul de um ímã colocado próximo à bússola;<br>III- A agulha sofre uma deflexão quando está próxima e paralela a um fio que conduz<br>corrente elétrica;<br>IV- A agulha, na ausência de campos magnéticos externos, orienta-se na direção leste-<br>oeste terrestre.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[I e II;<br><p></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr">II e III;<br></p><br>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">II e IV;<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">III e IV.<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1386  -->
+  <question type="multichoice">
+    <name>
+      <text>Electromagnetism I - 1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>(CEFET-MG 2011) Em uma região de campo magnético uniforme B, uma partícula de massa m e carga elétrica positiva q, penetra nesse campo com velocidade v, perpendicularmente a B, conforme figura seguinte.</p><p><img alt="" src="https://static.stoodi.com.br/images/exercises/b917efc3b9f74527a577b9cae4d1639e/e7768ab42a4708808f8d1911fe27524694585745a531777dcb5847958ce57c53.png?versionId=jgXZAK4LaPC0aPA_ARDWnN4ktWQ1Y6Nx"></p><p>O vetor forca magnética, que atua sobre a partícula no ponto P, está melhor representado em:<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><img alt="" src="https://static.stoodi.com.br/images/exercises/b917efc3b9f74527a577b9cae4d1639e/9b9b2bcb619ed6159bf6fa879f8b1ca1cb1c88b96f2d55521f1622948b16d2e7.png?versionId=69hq_7ZuyR5.67vbV1gOKNvTXN4DZfxm"><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><img alt="" src="https://static.stoodi.com.br/images/exercises/b917efc3b9f74527a577b9cae4d1639e/2506f81fe1558ca80c1cfa23342c1d81d494fa61a43606a78601a81b20ef8234.png?versionId=sL6wYvo4yUICJ8tVgJ6JBBr4WDj3x4YD"><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><img alt="" src="https://static.stoodi.com.br/images/exercises/b917efc3b9f74527a577b9cae4d1639e/ded2076a03f0c66d8b19a361be096071b1b6fa5a3316acb1b149f84a50767718.png?versionId=fXdza6eF4G1QPLqqE9A6hW_MyEROi83H"><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><img alt="" src="https://static.stoodi.com.br/images/exercises/b917efc3b9f74527a577b9cae4d1639e/fae7e868c3d504e8ccc3bb2880f3d6d1a4feb63ab5dfb98971779779fd95c4ac.png?versionId=IUYSFO_84VM9gqJ9fGWgAuHB05VdJlg5"><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1387  -->
+  <question type="multichoice">
+    <name>
+      <text>Electromagnetism I - 2</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">(FUVEST - 2006 - 1 FASE ) Sobre uma mesa plana e horizontal, é colocado um ímã em forma de barra, representado na figura, visto de cima, juntamente com algumas linhas de seu campo magnético. Uma pequena bússola é deslocada, lentamente, sobre a mesa, a partir do ponto P, realizando uma volta circular completa em torno do ímã.<br>Ao final desse movimento, a agulha da bússola terá completado, em torno de seu próprio eixo, um número de voltas igual a</p><p dir="ltr" style="text-align: left;"><img src="https://kuadro-static.storage.googleapis.com/51fa1bbcb3d24da79d975546014d4e11/38zxdWhr41Ls9bysCRHbk5z0Wb35A524qHqFs2xa2vTUwJP2c8-XhGr4HL4cT9TehzH3c4U_VNqf8GlUcL8gcKwXSed5vhOolO8Bf3dzqnUyBuflThUJjdCbgiQaOaTH3-qpjp1v"></p><p dir="ltr" style="text-align: left;">Obs: Nessas condições, desconsidere o campo magnético da Terra.<br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[1/4 de volta.<p dir="ltr" style="text-align: left;"><br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">1/2 volta.<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">1 volta completa.<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">2 voltas completas.<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">4 voltas completas.<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+<!-- question: 1388  -->
+  <question type="multichoice">
+    <name>p
+      <text>Electromagnetism I - 3</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">(FUVEST - 2002 - 1a fase) Quatro ímãs iguais em forma de barra, com as polaridades indicadas, 
+estão apoiados sobre uma mesa horizontal, como na figura, vistos de 
+cima. Uma pequena bússola é também colocada na mesa, no ponto central P,
+ equidistante dos ímãs, indicando a direção e o sentido do campo 
+magnético dos ímãs em P. Não levando em conta o efeito do campo 
+magnético terrestre, a figura que melhor representa a orientação da 
+agulha da bússola é</p><p dir="ltr" style="text-align: left;"><img alt="" src="https://kuadro-static.storage.googleapis.com/975da26f33a24fadba7edfe613bfac64/Sele%C3%A7%C3%A3o_256.png"><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><img src="@@PLUGINFILE@@/image.png" alt="" role="presentation" class="img-fluid"><br></p>]]></text>
+      <file name="image.png" path="/" encoding="base64">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</file>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><img src="@@PLUGINFILE@@/image.png" alt="" role="presentation" class="img-fluid"><br></p>]]></text>
+      <file name="image.png" path="/" encoding="base64">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</file>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><img src="@@PLUGINFILE@@/image.png" alt="" role="presentation" class="img-fluid"><br></p>]]></text>
+      <file name="image.png" path="/" encoding="base64">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</file>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><img src="@@PLUGINFILE@@/image.png" alt="" role="presentation" class="img-fluid"><br></p>]]></text>
+      <file name="image.png" path="/" encoding="base64">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</file>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;"><img src="@@PLUGINFILE@@/image.png" alt="" role="presentation" class="img-fluid"><br></p>]]></text>
+      <file name="image.png" path="/" encoding="base64">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</file>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+
+  <question type="multichoice">
+    <name>
+      <text>Electromagnetism I - 5</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">(PUCMG-1999) Uma partícula carregada negativamente é lançada com velocidade de 8,0 m/s no ponto E de uma região ABCD na qual podem existir campos magnéticos e elétricos, uniformes e constantes no tempo, separadamente ou em conjunto. A partícula sai pelo ponto F com velocidade de 17,0 m/s. Assim, analisando a figura a seguir, você conclui que, na referida região, existe:<br></p><p dir="ltr" style="text-align: left;"><img src="https://professor.bio.br/imagens/física/7680.jpg" alt=""><br></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="html">
+      <text>Your answer is correct.</text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text>Your answer is partially correct.</text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text>Your answer is incorrect.</text>
+    </incorrectfeedback>
+    <shownumcorrect/>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">um campo magnético saindo perpendicularmente à folha do papel e um campo elétrico para a esquerda.<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">um campo magnético entrando perpendicularmente à folha do papel e um campo elétrico para a esquerda.<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">um campo magnético saindo perpendicularmente à folha do papel e um campo elétrico para a direita.<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">um campo elétrico entrando perpendicularmente à folha do papel e um campo magnético para a esquerda.<br></p>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0" format="html">
+      <text><![CDATA[somente um campo magnético para a direita. <br>]]></text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question> 
+
+</quiz>
