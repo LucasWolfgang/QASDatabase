@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
-<!-- question: 1385  -->
+  <question type="category">
+    <category>
+      <text>Physics/Electromagnetism</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+  </question>
   <question type="multichoice">
     <name>
-      <text>Electromagnetism I</text>
+      <text>db00001</text>
     </name>
     <questiontext format="html">
       <text><![CDATA[(CEFET-MG) A bússola é um dispositivo composto por uma agulha imantada que pode girar livremente em torno de um eixo perpendicular a ela. Sobre seu funcionamento,<br>afirma-se:<br>I- O pólo sul magnético aponta para o norte geográfico terrestre;<br>II- O pólo norte magnético aponta para o sul de um ímã colocado próximo à bússola;<br>III- A agulha sofre uma deflexão quando está próxima e paralela a um fio que conduz<br>corrente elétrica;<br>IV- A agulha, na ausência de campos magnéticos externos, orienta-se na direção leste-<br>oeste terrestre.]]></text>
@@ -54,11 +61,9 @@
       </feedback>
     </answer>
   </question>
-
-<!-- question: 1386  -->
   <question type="multichoice">
     <name>
-      <text>Electromagnetism I - 1</text>
+      <text>db00002</text>
     </name>
     <questiontext format="html">
       <text><![CDATA[<p>(CEFET-MG 2011) Em uma região de campo magnético uniforme B, uma partícula de massa m e carga elétrica positiva q, penetra nesse campo com velocidade v, perpendicularmente a B, conforme figura seguinte.</p><p><img alt="" src="https://static.stoodi.com.br/images/exercises/b917efc3b9f74527a577b9cae4d1639e/e7768ab42a4708808f8d1911fe27524694585745a531777dcb5847958ce57c53.png?versionId=jgXZAK4LaPC0aPA_ARDWnN4ktWQ1Y6Nx"></p><p>O vetor forca magnética, que atua sobre a partícula no ponto P, está melhor representado em:<br></p>]]></text>
@@ -109,11 +114,9 @@
       </feedback>
     </answer>
   </question>
-
-<!-- question: 1387  -->
   <question type="multichoice">
     <name>
-      <text>Electromagnetism I - 2</text>
+      <text>db00003</text>
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">(FUVEST - 2006 - 1 FASE ) Sobre uma mesa plana e horizontal, é colocado um ímã em forma de barra, representado na figura, visto de cima, juntamente com algumas linhas de seu campo magnético. Uma pequena bússola é deslocada, lentamente, sobre a mesa, a partir do ponto P, realizando uma volta circular completa em torno do ímã.<br>Ao final desse movimento, a agulha da bússola terá completado, em torno de seu próprio eixo, um número de voltas igual a</p><p dir="ltr" style="text-align: left;"><img src="https://kuadro-static.storage.googleapis.com/51fa1bbcb3d24da79d975546014d4e11/38zxdWhr41Ls9bysCRHbk5z0Wb35A524qHqFs2xa2vTUwJP2c8-XhGr4HL4cT9TehzH3c4U_VNqf8GlUcL8gcKwXSed5vhOolO8Bf3dzqnUyBuflThUJjdCbgiQaOaTH3-qpjp1v"></p><p dir="ltr" style="text-align: left;">Obs: Nessas condições, desconsidere o campo magnético da Terra.<br></p>]]></text>
@@ -170,11 +173,9 @@
       </feedback>
     </answer>
   </question>
-
-<!-- question: 1388  -->
   <question type="multichoice">
-    <name>p
-      <text>Electromagnetism I - 3</text>
+    <name>
+      <text>db00004</text>
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">(FUVEST - 2002 - 1a fase) Quatro ímãs iguais em forma de barra, com as polaridades indicadas, 
@@ -242,10 +243,9 @@ agulha da bússola é</p><p dir="ltr" style="text-align: left;"><img alt="" src=
       </feedback>
     </answer>
   </question>
-
   <question type="multichoice">
     <name>
-      <text>Electromagnetism I - 5</text>
+      <text>db00005</text>
     </name>
     <questiontext format="html">
       <text><![CDATA[<p dir="ltr" style="text-align: left;">(PUCMG-1999) Uma partícula carregada negativamente é lançada com velocidade de 8,0 m/s no ponto E de uma região ABCD na qual podem existir campos magnéticos e elétricos, uniformes e constantes no tempo, separadamente ou em conjunto. A partícula sai pelo ponto F com velocidade de 17,0 m/s. Assim, analisando a figura a seguir, você conclui que, na referida região, existe:<br></p><p dir="ltr" style="text-align: left;"><img src="https://professor.bio.br/imagens/física/7680.jpg" alt=""><br></p>]]></text>
@@ -302,5 +302,4 @@ agulha da bússola é</p><p dir="ltr" style="text-align: left;"><img alt="" src=
       </feedback>
     </answer>
   </question> 
-
 </quiz>
