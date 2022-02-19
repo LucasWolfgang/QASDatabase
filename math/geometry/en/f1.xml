@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <question type="category"><category><text>Math/Geometry/Euclidian/Plane/Area</text></category></question>
+  <question type="calculatedmulti">
+    <name>
+      <text>db00001</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>What is the <b>area</b> of rectangle of height {=((1)+{rand2}*(10-1))} and width {=(1+{rand1}*(10-1))} ?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <synchronize>0</synchronize>
+    <single>1</single>
+    <answernumbering>abc</answernumbering>
+    <shuffleanswers>1</shuffleanswers>
+    <correctfeedback>
+      <text></text>
+    </correctfeedback>
+    <partiallycorrectfeedback>
+      <text></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback>
+      <text></text>
+    </incorrectfeedback>
+<answer fraction="100">
+    <text>{=((((1)+{rand2}*(10-1))*(1+{rand1}*(10-1))))}</text>
+    <tolerance>0.01</tolerance>
+    <tolerancetype>1</tolerancetype>
+    <correctanswerformat>1</correctanswerformat>
+    <correctanswerlength>2</correctanswerlength>
+    <feedback format="html">
+<text></text>
+    </feedback>
+</answer>
+<answer fraction="0">
+    <text>{=((((1)+{rand2}*(10-1))+(1+{rand1}*(10-1))))}</text>
+    <tolerance>0.01</tolerance>
+    <tolerancetype>1</tolerancetype>
+    <correctanswerformat>1</correctanswerformat>
+    <correctanswerlength>2</correctanswerlength>
+    <feedback format="html">
+<text></text>
+    </feedback>
+</answer>
+<answer fraction="0">
+    <text>{=((((1)+{rand2}*(10-1))+20</text>
+    <tolerance>0.01</tolerance>
+    <tolerancetype>1</tolerancetype>
+    <correctanswerformat>1</correctanswerformat>
+    <correctanswerlength>2</correctanswerlength>
+    <feedback format="html">
+<text></text>
+    </feedback>
+</answer>
+<answer fraction="0">
+    <text>{=((((1)+{rand2}*(10-1))*(1+{rand1}*(10-1))))}*1.5</text>
+    <tolerance>0.01</tolerance>
+    <tolerancetype>1</tolerancetype>
+    <correctanswerformat>1</correctanswerformat>
+    <correctanswerlength>2</correctanswerlength>
+    <feedback format="html">
+<text></text>
+    </feedback>
+</answer>
+<answer fraction="0">
+    <text>{=((((1)+{rand2}*(10-1))+(1+{rand1}*(10-1))))}+5.32</text>
+    <tolerance>0.01</tolerance>
+    <tolerancetype>1</tolerancetype>
+    <correctanswerformat>1</correctanswerformat>
+    <correctanswerlength>2</correctanswerlength>
+    <feedback format="html">
+<text></text>
+    </feedback>
+</answer>
+  </question>
+
+</quiz>

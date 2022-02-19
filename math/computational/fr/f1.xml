@@ -1,0 +1,13 @@
+<quiz>
+  <question type="category"><category><text>Math/Computational/Algorithm/Counting</text></category></question>
+  <question type="numerical"><name><text>with-int</text></name>
+    <questiontext format="html"><text><![CDATA[
+        <p>Combien de fois le programme suivant affiche-t-il <tt>"x"</tt> ?</p>
+        <p><tt>for (int i = 4; i &lt; 24; ++i)<br/> for (int j = i + 2; j - 1 &gt; 0; --j)<br/>  puts("x");</tt></p>
+    ]]></text>
+    </questiontext>
+    <answer format="moodle_auto_format" fraction="100"><text>290.0</text><tolerance>0.0</tolerance></answer>
+    <answer format="moodle_auto_format" fraction="50.0"><text>295.0</text><tolerance>5.0</tolerance></answer>
+    <answer format="moodle_auto_format" fraction="50.0"><text>285.0</text><tolerance>5.0</tolerance></answer>
+    </question>
+</quiz>
