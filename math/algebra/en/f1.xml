@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
   <question type="category">
-    <category>
-      <text>Math/Algebra/Quadratic</text>
-    </category>
-    <info format="html">
-      <text></text>
-    </info>
+    <category><text>Math/Algebra/Linear/Quadratic</text></category>
+    <info format="html"><text></text></info>
   </question>
   <question type="numerical">
-    <name>
-      <text>db00001</text>
-    </name>
+    <name><text>db00001</text></name>
     <questiontext format="html">
       <text><![CDATA[<p><span style="text-decoration: underline;">This is a <em>Numerical</em> question.</span></p>
       <p>Solve $$x^2 + 3x - 28 = 0$$<br /><br />Enter either of the possible answers.</p>]]></text>
@@ -63,5 +57,550 @@
     <hint format="html">
       <text><![CDATA[<p>You will need to substitute for a, b and c in the quadratic formula<br />$$\frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$<br /><br />a is the coefficient for $$x^2$$, b is coefficient for $$x$$ and c is the constant.</p>]]></text>
     </hint>
+  </question>
+  <question type="truefalse">
+    <name><text>db00002</text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p>The equation \(- 3 x^{2} - 3 x - 3=0\) has at least a solution.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="calculatedmulti">
+    <name><text>db00003</text></name>
+    <questiontext format="html">
+      <text><![CDATA[<p dir="ltr" style="text-align: left;">The solutions for the equation \(- {a} x^{2} - {b} x - {c}=0\) are:</p><p></p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"><text></text></generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <synchronize>0</synchronize>
+    <single>1</single>
+    <answernumbering>abc</answernumbering>
+    <shuffleanswers>1</shuffleanswers>
+    <correctfeedback><text>Your answer is correct.</text></correctfeedback>
+    <partiallycorrectfeedback><text>Your answer is partially correct.</text></partiallycorrectfeedback>
+    <incorrectfeedback><text>Your answer is incorrect.</text></incorrectfeedback>
+    <answer fraction="100">
+      <text>{=(-{b} - sqrt({b}^2 + 4*{a}*{c}))/(2*{a})} and {=(-{b} + sqrt({b}^2 + 4*{a}*{c}))/(2*{a})}</text>
+      <tolerance>0.01</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>1</correctanswerformat>
+      <correctanswerlength>2</correctanswerlength>
+    </answer>
+    <answer fraction="0">
+      <text>{=(-{b} - sqrt({b}^2 + 4*{a}*{c}))/(2*{a})+0.5} and {=(-{b} + sqrt({b}^2 + 4*{a}*{c}))/(2*{a})*1.5}</text>
+      <tolerance>0.01</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>1</correctanswerformat>
+      <correctanswerlength>2</correctanswerlength>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Both {=(-{b}/2 - sqrt({b}^2 + 4*{a}*{c}))/(2*{a})}</text>
+      <tolerance>0.01</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>1</correctanswerformat>
+      <correctanswerlength>2</correctanswerlength>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0">
+      <text>No real solution</text>
+      <tolerance>0.01</tolerance>
+      <tolerancetype>1</tolerancetype>
+      <correctanswerformat>1</correctanswerformat>
+      <correctanswerlength>2</correctanswerlength>
+      <feedback format="html"><text></text></feedback>
+    </answer>
+    <answer fraction="0">
+    <text>{=(-{b} - sqrt({b}^2 + 4*{a}*{c}))/(2*{a})} and {=(-{b} + sqrt({b}^2 + 4*{a}*{c}))/(2*{a})+1.2}</text>
+    <tolerance>0.01</tolerance>
+    <tolerancetype>1</tolerancetype>
+    <correctanswerformat>1</correctanswerformat>
+    <correctanswerlength>2</correctanswerlength>
+    <feedback format="html"><text></text></feedback>
+    </answer>
+    <dataset_definitions>
+      <dataset_definition>
+        <status><text>private</text></status>
+        <name><text>b</text></name>
+        <type>calculatedsimple</type>
+        <distribution><text>uniform</text></distribution>
+        <minimum><text>1</text></minimum>
+        <maximum><text>10</text></maximum>
+        <decimals><text>1</text></decimals>
+        <itemcount>20</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number><value>2.6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number><value>5.2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number><value>8.4</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number><value>7.6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number><value>9.2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number><value>1.0</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number><value>7.2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number><value>5.0</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number><value>2.0</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number><value>4.8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>11</number><value>1.5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>12</number><value>7.0</value>
+          </dataset_item>
+          <dataset_item>
+            <number>13</number><value>1.8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>14</number><value>2.8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>15</number><value>1.5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>16</number><value>9.6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>17</number><value>9.9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>18</number><value>4.9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>19</number><value>2.6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>20</number><value>8.7</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>20</number_of_items>
+      </dataset_definition>
+      <dataset_definition>
+        <status><text>private</text></status>
+        <name><text>a</text></name>
+        <type>calculatedsimple</type>
+        <distribution><text>uniform</text></distribution>
+        <minimum><text>1</text></minimum>
+        <maximum><text>10</text></maximum>
+        <decimals><text>1</text></decimals>
+        <itemcount>20</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number><value>7.1</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number><value>9.7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number><value>9.4</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number><value>7.3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number><value>6.2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number><value>4.4</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number><value>7.4</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number><value>3.0</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number><value>7.0</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number><value>8.1</value>
+          </dataset_item>
+          <dataset_item>
+            <number>11</number><value>6.9</value>
+          </dataset_item>
+          <dataset_item>
+            <number>12</number><value>9.7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>13</number><value>5.8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>14</number><value>2.1</value>
+          </dataset_item>
+          <dataset_item>
+            <number>15</number><value>4.4</value>
+          </dataset_item>
+          <dataset_item>
+            <number>16</number><value>7.6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>17</number><value>9.0</value>
+          </dataset_item>
+          <dataset_item>
+            <number>18</number><value>3.6</value>
+          </dataset_item>
+          <dataset_item>
+            <number>19</number><value>4.3</value>
+          </dataset_item>
+          <dataset_item>
+            <number>20</number><value>9.4</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>20</number_of_items>
+      </dataset_definition>
+      <dataset_definition>
+        <status><text>private</text></status>
+        <name><text>c</text></name>
+        <type>calculatedsimple</type>
+        <distribution><text>uniform</text></distribution>
+        <minimum><text>1</text></minimum>
+        <maximum><text>10</text></maximum>
+        <decimals><text>1</text></decimals>
+        <itemcount>20</itemcount>
+        <dataset_items>
+          <dataset_item>
+            <number>1</number><value>6.7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>2</number><value>5.5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>3</number><value>2.5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>4</number><value>7.8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>5</number><value>6.0</value>
+          </dataset_item>
+          <dataset_item>
+            <number>6</number><value>5.5</value>
+          </dataset_item>
+          <dataset_item>
+            <number>7</number><value>6.2</value>
+          </dataset_item>
+          <dataset_item>
+            <number>8</number><value>5.7</value>
+          </dataset_item>
+          <dataset_item>
+            <number>9</number><value>1.8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>10</number><value>1.1</value>
+          </dataset_item>
+          <dataset_item>
+            <number>11</number><value>2.8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>12</number><value>1.4</value>
+          </dataset_item>
+          <dataset_item>
+            <number>13</number><value>7.1</value>
+          </dataset_item>
+          <dataset_item>
+            <number>14</number><value>4.8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>15</number><value>3.0</value>
+          </dataset_item>
+          <dataset_item>
+            <number>16</number><value>7.4</value>
+          </dataset_item>
+          <dataset_item>
+            <number>17</number><value>3.1</value>
+          </dataset_item>
+          <dataset_item>
+            <number>18</number><value>7.8</value>
+          </dataset_item>
+          <dataset_item>
+            <number>19</number><value>7.0</value>
+          </dataset_item>
+          <dataset_item>
+            <number>20</number><value>6.2</value>
+          </dataset_item>
+        </dataset_items>
+        <number_of_items>20</number_of_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <question type=" ">
+    <name format="txt">
+      <text>db00004</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>\(\)The equation \(- 3 x^{2} - 3 x - 1=0\) has at least a solution.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <responseformat>editorfilepicker</responseformat>
+    <responserequired>0</responserequired>
+    <responsefieldlines>10</responsefieldlines>
+    <attachments>-1</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <graderinfo format="html">
+      <text></text>
+    </graderinfo>
+    <responsetemplate format="html">
+      <text></text>
+    </responsetemplate>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect></shownumcorrect>
+    <answer fraction="0.0" format="html">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="100.0" format="html">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="truefalse">
+    <name format="txt">
+      <text>db00005</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>\(\)The equation \(- 3 x^{2} - 3 x + 1=0\) has no real solution</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <responseformat>editorfilepicker</responseformat>
+    <responserequired>0</responserequired>
+    <responsefieldlines>10</responsefieldlines>
+    <attachments>-1</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <graderinfo format="html">
+      <text></text>
+    </graderinfo>
+    <responsetemplate format="html">
+      <text></text>
+    </responsetemplate>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect></shownumcorrect>
+    <answer fraction="100.0" format="html">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0.0" format="html">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="truefalse">
+    <name format="txt">
+      <text>db00006</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>\(\)The equation \(- 3 x^{2} - 3 x + 2=0\) has no real solution.</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0</defaultgrade>
+    <penalty>0.0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <responseformat>editorfilepicker</responseformat>
+    <responserequired>0</responserequired>
+    <responsefieldlines>10</responsefieldlines>
+    <attachments>-1</attachments>
+    <attachmentsrequired>0</attachmentsrequired>
+    <graderinfo format="html">
+      <text></text>
+    </graderinfo>
+    <responsetemplate format="html">
+      <text></text>
+    </responsetemplate>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>none</answernumbering>
+    <correctfeedback format="html">
+      <text><![CDATA[<p>Your answer is correct.</p>]]></text>
+    </correctfeedback>
+    <partiallycorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is partially correct.</p>]]></text>
+    </partiallycorrectfeedback>
+    <incorrectfeedback format="html">
+      <text><![CDATA[<p>Your answer is incorrect.</p>]]></text>
+    </incorrectfeedback>
+    <shownumcorrect></shownumcorrect>
+    <answer fraction="100.0" format="html">
+      <text>false</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+    <answer fraction="0.0" format="html">
+      <text>true</text>
+      <feedback format="html">
+        <text></text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="category">
+    <category><text>Math/Algebra/Linear/Matriz/Eigenvalue</text></category>
+    <info format="html"><text></text></info>
+  </question>
+  <question type="calculatedmulti">
+    <name><text>db00001</text></name>
+    <questiontext format="html"><text><![CDATA[
+      <p>Compute the eigenvalues of the following matrix</p>
+      $$\begin{equation}\begin{pmatrix}x&amp;y\\y&amp;z\end{pmatrix},\end{equation}$$
+      <p>where \(x\) = {=(1+{rand1}*(5-1))}, \(y\) = {=(1+{rand2}*(5-1))} and \(z\) = {=(1+{rand3}*(5-1))}.</p>
+    ]]></text></questiontext>
+    <answer format="html" fraction="50.0"><text><![CDATA[
+      {=((-((-((1+{rand1}*(5-1))+(1+{rand3}*(5-1)))))+sqrt((((-((1+{rand1}*(5-1))+(1+{rand3}*(5-1)))))*((-((1+{rand1}*(5-1))+(1+{rand3}*(5-1)))))-4*(1)*((1+{rand1}*(5-1))*(1+{rand3}*(5-1))-(1+{rand2}*(5-1))*(1+{rand2}*(5-1))))))/(2*(1)))}
+    ]]></text><tolerance>0.01</tolerance><tolerancetype>1</tolerancetype><correctanswerformat>1</correctanswerformat><correctanswerlength>2</correctanswerlength></answer>
+    <answer format="html" fraction="50.0"><text><![CDATA[
+      {=((-((-((1+{rand1}*(5-1))+(1+{rand3}*(5-1)))))-sqrt((((-((1+{rand1}*(5-1))+(1+{rand3}*(5-1)))))*((-((1+{rand1}*(5-1))+(1+{rand3}*(5-1)))))-4*(1)*((1+{rand1}*(5-1))*(1+{rand3}*(5-1))-(1+{rand2}*(5-1))*(1+{rand2}*(5-1))))))/(2*(1)))}
+    ]]></text><tolerance>0.01</tolerance><tolerancetype>1</tolerancetype><correctanswerformat>1</correctanswerformat><correctanswerlength>2</correctanswerlength></answer>
+    <answer format="html" fraction="0.0"><text><![CDATA[
+      {=(((-((1+{rand1}*(5-1))+(1+{rand3}*(5-1)))))*((-((1+{rand1}*(5-1))+(1+{rand3}*(5-1)))))-4*(1)*((1+{rand1}*(5-1))*(1+{rand3}*(5-1))-(1+{rand2}*(5-1))*(1+{rand2}*(5-1))))}
+    ]]></text><tolerance>0.01</tolerance><tolerancetype>1</tolerancetype><correctanswerformat>1</correctanswerformat><correctanswerlength>2</correctanswerlength></answer>
+    <answer format="html" fraction="0.0"><text><![CDATA[
+      {=(-((1+{rand1}*(5-1))+(1+{rand3}*(5-1))))}
+    ]]></text><tolerance>0.01</tolerance><tolerancetype>1</tolerancetype><correctanswerformat>1</correctanswerformat><correctanswerlength>2</correctanswerlength></answer>
+    <answer format="html" fraction="0.0"><text><![CDATA[
+      {=(((-((-((1+{rand1}*(5-1))+(1+{rand3}*(5-1)))))+sqrt((((-((1+{rand1}*(5-1))+(1+{rand3}*(5-1)))))*((-((1+{rand1}*(5-1))+(1+{rand3}*(5-1)))))-4*(1)*((1+{rand1}*(5-1))*(1+{rand3}*(5-1))-(1+{rand2}*(5-1))*(1+{rand2}*(5-1))))))/(2*(1)))+((-((-((1+{rand1}*(5-1))+(1+{rand3}*(5-1)))))-sqrt((((-((1+{rand1}*(5-1))+(1+{rand3}*(5-1)))))*((-((1+{rand1}*(5-1))+(1+{rand3}*(5-1)))))-4*(1)*((1+{rand1}*(5-1))*(1+{rand3}*(5-1))-(1+{rand2}*(5-1))*(1+{rand2}*(5-1))))))/(2*(1))))}
+    ]]></text><tolerance>0.01</tolerance><tolerancetype>1</tolerancetype><correctanswerformat>1</correctanswerformat><correctanswerlength>2</correctanswerlength></answer>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <defaultgrade>1.0</defaultgrade>
+    <single>false</single>
+    <dataset_definitions>
+      <dataset_definition>
+        <status><text>private</text></status>
+        <name><text>rand2</text></name>
+        <type>calculatedsimple</type>
+        <distribution><text>uniform</text></distribution>
+        <minimum><text>0</text></minimum>
+        <maximum><text>1</text></maximum>
+        <decimals><text>2</text></decimals>
+        <itemcount>3</itemcount>
+        <number_of_items>3</number_of_items>
+        <dataset_items><dataset_item><number>1</number><value>0.03</value></dataset_item><dataset_item><number>2</number><value>0.38</value></dataset_item><dataset_item><number>3</number><value>0.16</value></dataset_item></dataset_items>
+      </dataset_definition>
+      <dataset_definition>
+        <status><text>private</text></status>
+        <name><text>rand1</text></name>
+        <type>calculatedsimple</type>
+        <distribution><text>uniform</text></distribution>
+        <minimum><text>0</text></minimum>
+        <maximum><text>1</text></maximum>
+        <decimals><text>2</text></decimals>
+        <itemcount>3</itemcount>
+        <number_of_items>3</number_of_items>
+        <dataset_items><dataset_item><number>1</number><value>0.78</value></dataset_item><dataset_item><number>2</number><value>0.24</value></dataset_item><dataset_item><number>3</number><value>0.19</value></dataset_item></dataset_items>
+      </dataset_definition>
+      <dataset_definition>
+        <status><text>private</text></status>
+        <name><text>rand3</text></name>
+        <type>calculatedsimple</type>
+        <distribution><text>uniform</text></distribution>
+        <minimum><text>0</text></minimum>
+        <maximum><text>1</text></maximum>
+        <decimals><text>2</text></decimals>
+        <itemcount>3</itemcount>
+        <number_of_items>3</number_of_items>
+        <dataset_items><dataset_item><number>1</number><value>0.38</value></dataset_item><dataset_item><number>2</number><value>0.24</value></dataset_item><dataset_item><number>3</number><value>0.95</value></dataset_item></dataset_items>
+      </dataset_definition>
+    </dataset_definitions>
+  </question>
+  <question type="category">
+    <category><text>Math/Algebra/Linear/Matriz/Properties</text></category>
+    <info format="html"><text></text></info>
+  </question>
+  <question type="truefalse">
+    <name><text>db00001</text></name>
+    <questiontext format="html">
+      <text>Is every symmetric matrix invertible</text>
+    </questiontext>
+    <defaultgrade>2</defaultgrade>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <answer fraction="0" format="moodle_auto_format">
+      <text>true</text>
+    </answer>
+    <answer fraction="100" format="moodle_auto_format">
+      <text>false</text>
+    </answer>
   </question>
 </quiz>
